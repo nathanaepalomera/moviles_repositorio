@@ -1,0 +1,35 @@
+{
+  "project_info": {
+    "project_number": "541520964503",
+    "firebase_url": "https://tdadmserver.firebaseio.com",
+    "project_id": "tdadmserver",
+    "storage_bucket": "tdadmserver.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:541520964503:android:e9df060d0af366fd",
+        "android_client_info": {
+          "package_name": "mx.edu.ittepic.tdadm_laboratorio2_arleyaquino"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC9-x1JebzG1UFVhGuvTKEVqdlAgrZb3vw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "541520964503-n0sn71a2e4jd8uaph3f8llrd26a71q7e.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

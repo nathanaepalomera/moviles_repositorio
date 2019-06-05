@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#F0A1BB"
+    tools:context="com.example.l_z0k.dadm_u4_practica1_nathapalomera.MenuAlumno">
+        <TableLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:stretchColumns="*">
+            <TableRow>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:text="CAPTURA DE DATOS DEL ALUMNO"
+                    android:textStyle="bold"
+                    android:gravity="center"
+                    android:textColor="#070707"
+                    android:textSize="40dp"
+                    android:layout_span="2"/>
+            </TableRow>
+
+            <TableRow>
+                <EditText android:id="@+id/Edi"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="20dp"
+                    android:textColor="#ffffff"
+                    android:hint="Buscar por id"
+                    android:layout_span="2"/>
+            </TableRow>
+            <TableRow>
+                <Button android:id="@+id/btnBuscar"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="#F33978"
+                    android:layout_marginLeft="10dp"
+                    android:textStyle="bold"
+                    android:layout_marginTop="50dp"
+                    android:layout_marginRight="10dp"
+                    android:text="Buscar"/>
+                <Button android:id="@+id/btnAgregar"
+                    android:layout_width="wrap_content"
+                    android:background="#F33978"
+                    android:textStyle="bold"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginTop="50dp"
+                    android:text="Agregar"/>
+            </TableRow>
+        </TableLayout>
+        <android.support.v7.widget.RecyclerView
+            android:id="@+id/my_recycler_view"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="20dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginLeft="10dp"
+            android:scrollbars="vertical"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+</LinearLayout>

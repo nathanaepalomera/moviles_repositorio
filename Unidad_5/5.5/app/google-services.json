@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "133819024228",
+    "firebase_url": "https://provedor-de-contenido.firebaseio.com",
+    "project_id": "provedor-de-contenido",
+    "storage_bucket": "provedor-de-contenido.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:133819024228:android:52b6d7fbea8c4f4b",
+        "android_client_info": {
+          "package_name": "mx.edu.ittepic.provedor_de_centenidos"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "133819024228-32d0i6frbm9g1ktb9m687h2cqats5pn9.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "mx.edu.ittepic.provedor_de_centenidos",
+            "certificate_hash": "53c39bdb0f3b8416563f85ce308d44528048a529"
+          }
+        },
+        {
+          "client_id": "133819024228-kbathm55t8bnrme715umvdnegbfeh81p.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAwBM0ybxQlRZhSPN-VDGgXABbi8xKLaZ4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "133819024228-kbathm55t8bnrme715umvdnegbfeh81p.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

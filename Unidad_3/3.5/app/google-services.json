@@ -1,0 +1,44 @@
+{
+  "project_info": {
+    "project_number": "1094205131355",
+    "firebase_url": "https://tdadmlaboratorio2arleyaquino.firebaseio.com",
+    "project_id": "tdadmlaboratorio2arleyaquino",
+    "storage_bucket": "tdadmlaboratorio2arleyaquino.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1094205131355:android:e9df060d0af366fd",
+        "android_client_info": {
+          "package_name": "mx.edu.ittepic.tdadm_laboratorio2_arleyaquino"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1094205131355-tc351oppi3dpgd6hne0glen51dg1n3gt.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "mx.edu.ittepic.tdadm_laboratorio2_arleyaquino",
+            "certificate_hash": "bfa4be66f1dcdb1732f2c1a080141c4297ee5620"
+          }
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCj0ftOdkjmkZEKH4TqOWlfB81U56NKKMQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1094205131355-tltilfuqi6n9r165a5iummeh754bqjph.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
